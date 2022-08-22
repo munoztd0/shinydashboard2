@@ -25,15 +25,18 @@ very regularly updating values
 }
 \section{Functions}{
 \itemize{
-\item \code{updateBoxValues}: Update the values of multiple boxes using
+\item \code{updateBoxValues()}: Update the values of multiple boxes using
 named arguments where the name is the `inputId` and the value is
 the new `value` for that `inputId`, e.g. `boxId = 12`.
-}}
 
+}}
 \seealso{
 \code{\link{infoBox}}, \code{\link{valueBox}}
 
-Other boxes: \code{\link{box}}, \code{\link{infoBox}},
-  \code{\link{tabBox}}, \code{\link{valueBox}}
+Other boxes: 
+\code{\link{box}()},
+\code{\link{infoBox}()},
+\code{\link{tabBox}()},
+\code{\link{valueBox}()}
 }
 \concept{boxes}

@@ -1,6 +1,6 @@
 ## Tries to reproduce Github Issue: https://github.com/rstudio/shinydashboard/issues/110
 library(shiny)
-library(shinydashboard)
+library(shinydashboard2)
 
 header <- dashboardHeader(title = "Dashboard Demo")
 

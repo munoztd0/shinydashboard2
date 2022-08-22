@@ -1,5 +1,5 @@
 library(shiny)
-library(shinydashboard)
+library(shinydashboard2)
 
 # When the selected tab is not the first, and the renderMenu 
 # is invalidated, the first tab gets selected. Here is an 
