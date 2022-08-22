@@ -1,16 +1,9 @@
 Shiny Dashboard
-===============
-
-*Travis:* [![Travis-CI Build Status](https://travis-ci.org/rstudio/shinydashboard.svg?branch=master)](https://travis-ci.org/rstudio/shinydashboard)
-
-*AppVeyor:* [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/rstudio/shinydashboard?branch=master&svg=true)](https://ci.appveyor.com/project/rstudio/shinydashboard)
-
+Fork from #gadenbuie
 ## Installation
 
 To install from CRAN:
 
 ```R
-install.packages("shinydashboard")
+remotes::install_github("munoztd0/shinydashboard2")
 ```
-
-See the documentation at http://rstudio.github.io/shinydashboard/
